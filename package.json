@@ -1,0 +1,17 @@
+{
+  "name": "advenctofcode-2022",
+  "version": "1.0.0",
+  "description": "Solutions I came up with",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "author": "akdevlin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
