@@ -20,6 +20,21 @@ function parseLinesOfText(filePath, splitByLine = true) {
     }
 
 }
+function parseLinesOfTextByEmptyLines(filePath) {
+
+    let data = '';
+    try {
+        data = fs.readFileSync(filePath, 'utf8');
+
+            return data.split('\n\n');
+
+    } catch (err) {
+        console.error(err);
+    }
+
+}
+
 module.exports = {
     parseLinesOfText,
+    parseLinesOfTextByEmptyLines
 }
